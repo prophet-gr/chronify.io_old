@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreTimeEntryRequest;
 use App\Http\Requests\UpdateTimeEntryRequest;
 use App\Http\Resources\TimeEntryResource;
+use App\Models\Project;
+use App\Models\Task;
 use App\Models\TimeEntry;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -118,7 +120,7 @@ class TimeEntryController extends Controller
 
     private function authorizeProject(Request $request, int $projectId): void
     {
-        $project = \App\Models\Project::findOrFail($projectId);
+        $project = Project::findOrFail($projectId);
 
         abort_unless(
             $project->organization->users()->where('user_id', $request->user()->id)->exists(),
@@ -129,7 +131,7 @@ class TimeEntryController extends Controller
 
     private function authorizeTask(int $taskId, int $projectId): void
     {
-        $task = \App\Models\Task::findOrFail($taskId);
+        $task = Task::findOrFail($taskId);
 
         abort_unless(
             $task->project_id === $projectId,

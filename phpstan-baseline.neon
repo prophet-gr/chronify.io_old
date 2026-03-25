@@ -1,0 +1,343 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Parameter \#1 \$user of class Illuminate\\Auth\\Events\\Verified constructor expects Illuminate\\Contracts\\Auth\\MustVerifyEmail, App\\Models\\User given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/Api/AuthController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Relations\\Pivot\:\:\$role\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/OrganizationController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Relations\\Pivot\:\:\$role\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/OrganizationMemberController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Relations\\Pivot\:\:\$role\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/ProjectController.php
+
+		-
+			message: '#^Parameter \#2 \$organization of method App\\Http\\Controllers\\Api\\ProjectController\:\:authorizeMember\(\) expects App\\Models\\Organization, Illuminate\\Database\\Eloquent\\Model\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/Api/ProjectController.php
+
+		-
+			message: '#^Parameter \#2 \$organization of method App\\Http\\Controllers\\Api\\ProjectController\:\:authorizeRole\(\) expects App\\Models\\Organization, Illuminate\\Database\\Eloquent\\Model\|null given\.$#'
+			identifier: argument.type
+			count: 2
+			path: app/Http/Controllers/Api/ProjectController.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:users\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Http/Controllers/Api/TaskController.php
+
+		-
+			message: '#^Parameter \#2 \$project of method App\\Http\\Controllers\\Api\\TaskController\:\:authorizeMember\(\) expects App\\Models\\Project, Illuminate\\Database\\Eloquent\\Model\|null given\.$#'
+			identifier: argument.type
+			count: 3
+			path: app/Http/Controllers/Api/TaskController.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:users\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Http/Controllers/Api/TimeEntryController.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\MemberResource\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/MemberResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\MemberResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/MemberResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\MemberResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/MemberResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\MemberResource\:\:\$pivot\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Resources/MemberResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\OrganizationResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/OrganizationResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\OrganizationResource\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/OrganizationResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\OrganizationResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/OrganizationResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\OrganizationResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/OrganizationResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\OrganizationResource\:\:\$pivot\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/OrganizationResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\OrganizationResource\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/OrganizationResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\OrganizationResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/OrganizationResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$color\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$hourly_rate\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$is_billable\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$organization_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\ProjectResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/ProjectResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$is_billable\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$project_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TaskResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TaskResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$duration\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$ended_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$is_billable\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$notes\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$project_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$started_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$task_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\TimeEntryResource\:\:\$user_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/TimeEntryResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$avatar\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$email_verified_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$timezone\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Http\\Resources\\UserResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/UserResource.php

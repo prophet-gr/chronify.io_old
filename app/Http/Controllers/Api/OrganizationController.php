@@ -30,7 +30,7 @@ class OrganizationController extends Controller
             $base = $data['slug'];
             $counter = 1;
             while (Organization::where('slug', $data['slug'])->exists()) {
-                $data['slug'] = $base . '-' . $counter++;
+                $data['slug'] = $base.'-'.$counter++;
             }
         }
 
