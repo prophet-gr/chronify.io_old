@@ -32,6 +32,11 @@ Route::view('/privacy', 'pages.privacy')->name('privacy');
 Route::view('/terms', 'pages.terms')->name('terms');
 Route::view('/cookies', 'pages.cookies')->name('cookies');
 Route::view('/gdpr', 'pages.gdpr')->name('gdpr');
+Route::view('/integrations', 'pages.integrations')->name('integrations');
+Route::view('/changelog', 'pages.changelog')->name('changelog');
+Route::view('/mobile', 'pages.mobile')->name('mobile');
+Route::view('/blog', 'pages.blog')->name('blog');
+Route::view('/careers', 'pages.careers')->name('careers');
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::get('/dashboard', DashboardController::class)->name('dashboard');
