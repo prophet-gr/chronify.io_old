@@ -11,7 +11,7 @@ Route::get('/', function () {
     if (auth()->check()) {
         return redirect('/dashboard');
     }
-    return Inertia::render('Welcome');
+    return view('landing');
 });
 
 Route::middleware('auth:sanctum')->group(function () {
