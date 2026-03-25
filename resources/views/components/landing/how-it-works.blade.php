@@ -13,8 +13,6 @@
 
         {{-- Steps --}}
         <div class="grid md:grid-cols-3 gap-8 lg:gap-12 relative">
-            {{-- Connector line (desktop) --}}
-            <div class="hidden md:block absolute top-16 left-[calc(16.67%+24px)] right-[calc(16.67%+24px)] h-0.5 bg-brand-200"></div>
 
             {{-- Step 1 --}}
             <div class="relative text-center">
