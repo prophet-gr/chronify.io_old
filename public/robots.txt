@@ -1,2 +1,6 @@
 User-agent: *
-Disallow:
+Disallow: /dashboard
+Disallow: /api/
+Allow: /
+
+Sitemap: https://chronify.io/sitemap.xml

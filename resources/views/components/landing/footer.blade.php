@@ -5,7 +5,7 @@
             {{-- Brand Column --}}
             <div class="col-span-2 md:col-span-1">
                 <a href="/" class="flex items-center gap-2.5 mb-4">
-                    <svg class="w-8 h-8 text-brand-400" fill="none" viewBox="0 0 32 32" stroke="currentColor" stroke-width="2">
+                    <svg class="w-8 h-8 text-brand-400" fill="none" viewBox="0 0 32 32" stroke="currentColor" stroke-width="2" role="img" aria-label="Chronify logo">
                         <circle cx="16" cy="16" r="13" />
                         <path d="M16 8v8l5.5 3.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
