@@ -52,7 +52,7 @@
             <div>
                 <h4 class="text-sm font-semibold text-white mb-4">Company</h4>
                 <ul class="space-y-3">
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">About</a></li>
+                    <li><a href="/about" class="text-sm hover:text-white transition-colors">About</a></li>
                     <li><a href="#" class="text-sm hover:text-white transition-colors">Blog</a></li>
                     <li><a href="#" class="text-sm hover:text-white transition-colors">Careers</a></li>
                     <li><a href="mailto:sales@chronify.io" class="text-sm hover:text-white transition-colors">Contact</a></li>
@@ -63,10 +63,10 @@
             <div>
                 <h4 class="text-sm font-semibold text-white mb-4">Legal</h4>
                 <ul class="space-y-3">
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Privacy Policy</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Terms of Service</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">Cookie Policy</a></li>
-                    <li><a href="#" class="text-sm hover:text-white transition-colors">GDPR</a></li>
+                    <li><a href="/privacy" class="text-sm hover:text-white transition-colors">Privacy Policy</a></li>
+                    <li><a href="/terms" class="text-sm hover:text-white transition-colors">Terms of Service</a></li>
+                    <li><a href="/cookies" class="text-sm hover:text-white transition-colors">Cookie Policy</a></li>
+                    <li><a href="/gdpr" class="text-sm hover:text-white transition-colors">GDPR</a></li>
                 </ul>
             </div>
         </div>

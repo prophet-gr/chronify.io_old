@@ -49,7 +49,7 @@
                         <span class="text-sm text-surface-600">Mobile app access</span>
                     </li>
                 </ul>
-                <a href="/api/register" class="block w-full text-center px-6 py-3 text-sm font-semibold text-brand-600 bg-brand-50 hover:bg-brand-100 rounded-xl transition-colors">
+                <a href="/register" class="block w-full text-center px-6 py-3 text-sm font-semibold text-brand-600 bg-brand-50 hover:bg-brand-100 rounded-xl transition-colors">
                     Get Started Free
                 </a>
             </div>
@@ -108,7 +108,7 @@
                         <span class="text-sm text-surface-600">Priority support</span>
                     </li>
                 </ul>
-                <a href="/api/register" class="block w-full text-center px-6 py-3 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-xl shadow-lg shadow-brand-500/25 transition-all hover:shadow-xl">
+                <a href="/register" class="block w-full text-center px-6 py-3 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-xl shadow-lg shadow-brand-500/25 transition-all hover:shadow-xl">
                     Start Free Trial
                 </a>
             </div>

@@ -20,8 +20,8 @@
 
             {{-- Desktop CTA --}}
             <div class="hidden md:flex items-center gap-3">
-                <a href="/api/login" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Sign In</a>
-                <a href="/api/register" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">
+                <a href="/login" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Sign In</a>
+                <a href="/register" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">
                     Start Free Trial
                 </a>
             </div>
@@ -46,8 +46,8 @@
             <a href="#pricing" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Pricing</a>
             <a href="#testimonials" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Testimonials</a>
             <hr class="border-surface-200">
-            <a href="/api/login" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Sign In</a>
-            <a href="/api/register" class="block w-full text-center px-4 py-2.5 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">
+            <a href="/login" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Sign In</a>
+            <a href="/register" class="block w-full text-center px-4 py-2.5 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">
                 Start Free Trial
             </a>
         </div>
