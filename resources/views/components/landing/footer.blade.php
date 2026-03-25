@@ -55,7 +55,7 @@
                     <li><a href="/about" class="text-sm hover:text-white transition-colors">About</a></li>
                     <li><a href="/blog" class="text-sm hover:text-white transition-colors">Blog</a></li>
                     <li><a href="/careers" class="text-sm hover:text-white transition-colors">Careers</a></li>
-                    <li><a href="mailto:sales@chronify.io" class="text-sm hover:text-white transition-colors">Contact</a></li>
+                    <li><a href="/contact" class="text-sm hover:text-white transition-colors">Contact</a></li>
                 </ul>
             </div>
 

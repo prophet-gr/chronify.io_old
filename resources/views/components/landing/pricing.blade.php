@@ -160,7 +160,7 @@
                         <span class="text-sm text-surface-600">On-premise deployment option</span>
                     </li>
                 </ul>
-                <a href="mailto:sales@chronify.io" class="block w-full text-center px-6 py-3 text-sm font-semibold text-surface-700 bg-surface-100 hover:bg-surface-200 rounded-xl transition-colors">
+                <a href="/contact?subject=sales" class="block w-full text-center px-6 py-3 text-sm font-semibold text-surface-700 bg-surface-100 hover:bg-surface-200 rounded-xl transition-colors">
                     Contact Sales
                 </a>
             </div>

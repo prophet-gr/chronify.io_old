@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProjectPageController;
 use App\Http\Controllers\ReportPageController;
@@ -37,6 +38,8 @@ Route::view('/changelog', 'pages.changelog')->name('changelog');
 Route::view('/mobile', 'pages.mobile')->name('mobile');
 Route::view('/blog', 'pages.blog')->name('blog');
 Route::view('/careers', 'pages.careers')->name('careers');
+Route::get('/contact', [ContactController::class, 'create'])->name('contact');
+Route::post('/contact', [ContactController::class, 'store']);
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::get('/dashboard', DashboardController::class)->name('dashboard');

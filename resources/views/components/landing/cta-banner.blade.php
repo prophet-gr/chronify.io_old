@@ -19,7 +19,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
             </a>
-            <a href="mailto:sales@chronify.io" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-surface-300 hover:text-white border border-surface-700 hover:border-surface-500 rounded-xl transition-colors">
+            <a href="/contact?subject=sales" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-surface-300 hover:text-white border border-surface-700 hover:border-surface-500 rounded-xl transition-colors">
                 Talk to Sales
             </a>
         </div>
