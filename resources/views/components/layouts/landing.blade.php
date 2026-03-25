@@ -13,7 +13,8 @@
     <title>{{ $title }}</title>
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700,800" rel="stylesheet" />
-    @vite(['resources/css/app.css'])
+    @vite(['resources/css/app.css', 'resources/js/landing.js'])
+    <style>[x-cloak] { display: none !important; }</style>
 </head>
 <body class="min-h-screen bg-white text-surface-900 font-sans antialiased">
     {{ $slot }}
