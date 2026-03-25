@@ -25,25 +25,25 @@
                 </div>
                 <ul class="space-y-3 mb-8 flex-1">
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">1 user</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">3 projects</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Basic reports</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Mobile app access</span>
@@ -72,37 +72,37 @@
                 </div>
                 <ul class="space-y-3 mb-8 flex-1">
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Unlimited users</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Unlimited projects</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Advanced reports &amp; analytics</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Team management</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Integrations (Jira, Slack, GitHub)</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Priority support</span>
@@ -124,37 +124,37 @@
                 </div>
                 <ul class="space-y-3 mb-8 flex-1">
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Everything in Pro</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">SSO &amp; SAML authentication</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Custom integrations &amp; API</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">Dedicated account manager</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">SLA &amp; uptime guarantee</span>
                     </li>
                     <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-5 h-5 text-success-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                         </svg>
                         <span class="text-sm text-surface-600">On-premise deployment option</span>

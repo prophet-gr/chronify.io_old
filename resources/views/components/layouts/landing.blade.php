@@ -129,6 +129,11 @@
     @vite(['resources/css/app.css'])
 </head>
 <body class="min-h-screen bg-white text-surface-900 font-sans antialiased">
-    {{ $slot }}
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-brand-600 focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold">
+        Skip to main content
+    </a>
+    <main id="main-content">
+        {{ $slot }}
+    </main>
 </body>
 </html>

@@ -7,7 +7,7 @@
         <div class="text-center max-w-3xl mx-auto">
             {{-- Badge --}}
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-200 text-brand-700 text-sm font-medium mb-6">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
                 </svg>
                 Trusted by 5,000+ teams worldwide
@@ -29,12 +29,12 @@
             <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a href="/api/register" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-xl shadow-lg shadow-brand-500/25 transition-all hover:shadow-xl hover:shadow-brand-500/30">
                     Start Free Trial
-                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                 </a>
                 <a href="#how-it-works" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-surface-700 bg-white hover:bg-surface-50 border border-surface-300 rounded-xl transition-colors">
-                    <svg class="w-5 h-5 mr-2 text-brand-500" fill="currentColor" viewBox="0 0 20 20">
+                    <svg class="w-5 h-5 mr-2 text-brand-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
                     </svg>
                     See How It Works
@@ -62,8 +62,8 @@
             </div>
         </div>
 
-        {{-- Hero Visual (Dashboard Preview) --}}
-        <div class="mt-16 sm:mt-20 max-w-5xl mx-auto">
+        {{-- Hero Visual (Dashboard Preview) — decorative, hidden from assistive tech --}}
+        <div class="mt-16 sm:mt-20 max-w-5xl mx-auto" aria-hidden="true">
             <div class="relative rounded-2xl border border-surface-200 shadow-2xl shadow-surface-900/10 overflow-hidden bg-surface-900">
                 {{-- Browser Chrome --}}
                 <div class="flex items-center gap-2 px-4 py-3 bg-surface-800 border-b border-surface-700">

@@ -15,7 +15,7 @@
         <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="/api/register" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-brand-600 hover:bg-brand-500 rounded-xl shadow-lg shadow-brand-500/25 transition-all hover:shadow-xl hover:shadow-brand-500/30">
                 Start Your Free Trial
-                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
             </a>
@@ -23,7 +23,7 @@
                 Talk to Sales
             </a>
         </div>
-        <p class="mt-6 text-sm text-surface-500">
+        <p class="mt-6 text-sm text-surface-400">
             No credit card required. 14-day free trial on Pro plan.
         </p>
     </div>
