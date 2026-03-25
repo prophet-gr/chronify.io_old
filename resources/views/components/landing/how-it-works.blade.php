@@ -15,11 +15,11 @@
         <div class="grid md:grid-cols-3 gap-8 lg:gap-12 relative">
 
             {{-- Step 1 --}}
-            <div class="relative text-center">
+            <div class="relative text-center flex flex-col">
                 <div class="w-12 h-12 rounded-full bg-brand-600 text-white text-lg font-bold flex items-center justify-center mx-auto mb-6 relative z-10 ring-4 ring-white">
                     1
                 </div>
-                <div class="bg-white rounded-2xl p-6 border border-surface-200 shadow-card">
+                <div class="bg-white rounded-2xl p-6 border border-surface-200 shadow-card flex-1">
                     <div class="w-16 h-16 rounded-2xl bg-brand-50 flex items-center justify-center mx-auto mb-5">
                         <svg class="w-8 h-8 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
@@ -33,11 +33,11 @@
             </div>
 
             {{-- Step 2 --}}
-            <div class="relative text-center">
+            <div class="relative text-center flex flex-col">
                 <div class="w-12 h-12 rounded-full bg-brand-600 text-white text-lg font-bold flex items-center justify-center mx-auto mb-6 relative z-10 ring-4 ring-white">
                     2
                 </div>
-                <div class="bg-white rounded-2xl p-6 border border-surface-200 shadow-card">
+                <div class="bg-white rounded-2xl p-6 border border-surface-200 shadow-card flex-1">
                     <div class="w-16 h-16 rounded-2xl bg-success-50 flex items-center justify-center mx-auto mb-5">
                         <svg class="w-8 h-8 text-success-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -52,11 +52,11 @@
             </div>
 
             {{-- Step 3 --}}
-            <div class="relative text-center">
+            <div class="relative text-center flex flex-col">
                 <div class="w-12 h-12 rounded-full bg-brand-600 text-white text-lg font-bold flex items-center justify-center mx-auto mb-6 relative z-10 ring-4 ring-white">
                     3
                 </div>
-                <div class="bg-white rounded-2xl p-6 border border-surface-200 shadow-card">
+                <div class="bg-white rounded-2xl p-6 border border-surface-200 shadow-card flex-1">
                     <div class="w-16 h-16 rounded-2xl bg-warning-50 flex items-center justify-center mx-auto mb-5">
                         <svg class="w-8 h-8 text-warning-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
