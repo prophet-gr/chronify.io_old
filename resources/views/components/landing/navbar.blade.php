@@ -12,10 +12,10 @@
 
             {{-- Desktop Nav --}}
             <div class="hidden md:flex items-center gap-8">
-                <a href="#features" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Features</a>
-                <a href="#how-it-works" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">How It Works</a>
-                <a href="#pricing" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Pricing</a>
-                <a href="#testimonials" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Testimonials</a>
+                <a href="/#features" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Features</a>
+                <a href="/#how-it-works" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">How It Works</a>
+                <a href="/#pricing" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Pricing</a>
+                <a href="/#testimonials" class="text-sm font-medium text-surface-600 hover:text-surface-900 transition-colors">Testimonials</a>
             </div>
 
             {{-- Desktop CTA --}}
@@ -41,10 +41,10 @@
     {{-- Mobile Menu --}}
     <div x-show="open" x-cloak x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-1" class="md:hidden border-t border-surface-200 bg-white">
         <div class="px-4 py-4 space-y-3">
-            <a href="#features" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Features</a>
-            <a href="#how-it-works" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">How It Works</a>
-            <a href="#pricing" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Pricing</a>
-            <a href="#testimonials" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Testimonials</a>
+            <a href="/#features" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Features</a>
+            <a href="/#how-it-works" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">How It Works</a>
+            <a href="/#pricing" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Pricing</a>
+            <a href="/#testimonials" @click="open = false" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Testimonials</a>
             <hr class="border-surface-200">
             <a href="/login" class="block text-sm font-medium text-surface-600 hover:text-surface-900">Sign In</a>
             <a href="/register" class="block w-full text-center px-4 py-2.5 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">

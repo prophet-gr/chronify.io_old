@@ -40,8 +40,8 @@
             <div>
                 <h4 class="text-sm font-semibold text-white mb-4">Product</h4>
                 <ul class="space-y-3">
-                    <li><a href="#features" class="text-sm hover:text-white transition-colors">Features</a></li>
-                    <li><a href="#pricing" class="text-sm hover:text-white transition-colors">Pricing</a></li>
+                    <li><a href="/#features" class="text-sm hover:text-white transition-colors">Features</a></li>
+                    <li><a href="/#pricing" class="text-sm hover:text-white transition-colors">Pricing</a></li>
                     <li><a href="/integrations" class="text-sm hover:text-white transition-colors">Integrations</a></li>
                     <li><a href="/changelog" class="text-sm hover:text-white transition-colors">Changelog</a></li>
                     <li><a href="/mobile" class="text-sm hover:text-white transition-colors">Mobile Apps</a></li>
