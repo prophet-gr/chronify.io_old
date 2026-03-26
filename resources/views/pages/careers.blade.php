@@ -51,7 +51,53 @@
             <h2 class="text-2xl font-bold text-surface-900 mb-6">Open Positions</h2>
 
             <div class="space-y-4 mb-12">
-                <p class="text-surface-600">We don't have any open positions right now, but we're always looking for talented people.</p>
+                {{-- Position 1 --}}
+                <a href="mailto:careers@chronify.io?subject=Application: Senior Full-Stack Engineer" class="block border border-surface-200 rounded-xl p-5 hover:border-brand-200 hover:shadow-md transition-all group">
+                    <div class="flex items-start justify-between gap-4">
+                        <div>
+                            <h3 class="font-semibold text-surface-900 group-hover:text-brand-600 transition-colors">Senior Full-Stack Engineer</h3>
+                            <p class="text-sm text-surface-500 mt-1">Laravel, React, PostgreSQL. Build core product features end-to-end.</p>
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Remote</span>
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Full-Time</span>
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Engineering</span>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-surface-400 group-hover:text-brand-600 shrink-0 mt-1 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                    </div>
+                </a>
+
+                {{-- Position 2 --}}
+                <a href="mailto:careers@chronify.io?subject=Application: Product Designer" class="block border border-surface-200 rounded-xl p-5 hover:border-brand-200 hover:shadow-md transition-all group">
+                    <div class="flex items-start justify-between gap-4">
+                        <div>
+                            <h3 class="font-semibold text-surface-900 group-hover:text-brand-600 transition-colors">Product Designer</h3>
+                            <p class="text-sm text-surface-500 mt-1">Own the design system and user experience. Figma, Tailwind, user research.</p>
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Remote</span>
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Full-Time</span>
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Design</span>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-surface-400 group-hover:text-brand-600 shrink-0 mt-1 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                    </div>
+                </a>
+
+                {{-- Position 3 --}}
+                <a href="mailto:careers@chronify.io?subject=Application: React Native Developer" class="block border border-surface-200 rounded-xl p-5 hover:border-brand-200 hover:shadow-md transition-all group">
+                    <div class="flex items-start justify-between gap-4">
+                        <div>
+                            <h3 class="font-semibold text-surface-900 group-hover:text-brand-600 transition-colors">React Native Developer</h3>
+                            <p class="text-sm text-surface-500 mt-1">Build our iOS and Android apps from scratch. Offline-first architecture.</p>
+                            <div class="flex items-center gap-3 mt-3">
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Remote</span>
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Full-Time</span>
+                                <span class="text-xs text-surface-500 bg-surface-100 px-2 py-0.5 rounded-full">Mobile</span>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-surface-400 group-hover:text-brand-600 shrink-0 mt-1 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                    </div>
+                </a>
             </div>
 
             <div class="bg-brand-50 rounded-2xl p-8 text-center">

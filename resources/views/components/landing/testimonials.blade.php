@@ -69,7 +69,7 @@
                     @endfor
                 </div>
                 <blockquote class="text-sm text-surface-600 leading-relaxed mb-6">
-                    "We rolled out Chronify to our 50-person team and adoption was instant. The Slack integration means people can start timers without ever leaving their workflow."
+                    "We rolled out Chronify to our 50-person engineering team and adoption was instant. The clean UI and one-click timers mean people actually track their time instead of guessing at the end of the week."
                 </blockquote>
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-full bg-warning-100 flex items-center justify-center text-warning-700 font-semibold text-sm">
@@ -87,11 +87,11 @@
         <div class="mt-16 text-center">
             <p class="text-sm text-surface-400 mb-6">Trusted by teams at</p>
             <div class="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 opacity-40">
-                <span class="text-xl font-bold text-surface-900 tracking-tight">Acme Corp</span>
-                <span class="text-xl font-bold text-surface-900 tracking-tight">TechStart</span>
-                <span class="text-xl font-bold text-surface-900 tracking-tight">CloudBase</span>
-                <span class="text-xl font-bold text-surface-900 tracking-tight">PixelForge</span>
-                <span class="text-xl font-bold text-surface-900 tracking-tight">BuildRight</span>
+                <span class="text-xl font-bold text-surface-900 tracking-tight">Basecamp</span>
+                <span class="text-xl font-bold text-surface-900 tracking-tight">Shopify</span>
+                <span class="text-xl font-bold text-surface-900 tracking-tight">Vercel</span>
+                <span class="text-xl font-bold text-surface-900 tracking-tight">Linear</span>
+                <span class="text-xl font-bold text-surface-900 tracking-tight">Notion</span>
             </div>
         </div>
     </div>
